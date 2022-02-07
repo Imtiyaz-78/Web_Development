@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS3 User Interface Properties</title>
+	<style>
+
+		/* CSS3 User Interface properties:-
+		1. resizing: horizontal, vertical;
+		2. box-sizing
+		3 outline-offset */
+
+
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+       
+		div{
+			border: 1px solid gray;
+			padding: 20px;
+			width: 300px;
+			resize: vertical;
+			overflow: auto;
+
+			
+		}
+
+		div p{
+			color: black;
+			background-color: yellow;
+		}
+
+		/* This is box-sizing */
+		.box_sizing{
+			width: 300px;
+			height: 100px;
+			background: dodgerblue;
+			margin-top: 40px;
+			padding-left: 30px;
+			box-sizing: border-box;
+
+
+		}
+		p{
+			color: white;
+		}
+	</style>
+</head>
+<body>
+
+	<h2>The resize property.</h2>
+	<div>
+		<p>This resize peoperties and this is resize in vertical and horizontal </p>
+	</div>
+
+	<div class="box_sizing">
+		<p>This sizing  is very important</p>
+	</div>
+	
+</body>
+</html>
